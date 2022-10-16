@@ -6,22 +6,29 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/index.cs">
 </head>
 
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg bg-danger">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+                <nav class="navbar">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="/IMAGES/salsaland titulo.png" alt="Bootstrap">
+                      </a>
+                    </div>
+                  </nav>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/HTML/SERVER.html">Server</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -41,33 +48,39 @@
                     <a class="nav-link disabled">Disabled</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
     </header>
 </body>
-
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+    Toggle static offcanvas
+  </button>
+  
+  <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        I will not close if you click outside of me.
+      </div>
+    </div>
+  </div>
 <footer>
 
     <div>
-            
-                <a href="https://discord.gg/ZypfXFRgHh">
+        <a class="text-decoration-none" href="https://discord.gg/ZypfXFRgHh">
                     <img src="https://play-lh.googleusercontent.com/s-2O9IP9uO25JhGp2GfxKJKEs9G7CFcAzgheFeatXAQFCiyGy5-M8uJOpdBLwYM8t4zL"
                         height="50"
                         width="50">
-                </a>
-                <a href="https://wa.me/qr/K7I4QXVAW3M3C1">
-                    <img src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN"
+        </a>
+        <a class="text-decoration-none" href="https://wa.me/qr/K7I4QXVAW3M3C1">
+            <img src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN"
                         height="50"
                         width="50">
-                </a> 
-            
-            contacto
-    <div>
-            
+        </a> 
+    <div>      
 </footer>
 </html>
