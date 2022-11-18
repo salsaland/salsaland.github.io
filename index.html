@@ -74,7 +74,20 @@
             <h5 class="card-title">IP DEL SERVIDOR</h5>
             <p class="card-text ">salsaland.tk:27406</p>
             <p id="p1" class="d-none">salsaland.tk:27406</p>
-            <button class="btn btn-outline-primary" onclick="copiarAlPortapapeles('p1')" class="p-1 border-circle">Copiar</button>
+
+            <!--modal -->
+            <button type="button" class="btn btn-outline-primary" onclick="copiarAlPortapapeles('p1')"   data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Copiar
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body text-success">Texto copiado <i class="bi bi-check2"></i></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </div>
